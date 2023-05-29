@@ -21,8 +21,8 @@ app.use("/api/v1",user)
 
 
 
-let port = process.env.PORT
 
- app.listen(port,() => {
-    console.log(`Server is working on http://localhost:${port}`);
+
+ app.listen(4000,() => {
+    console.log(`Server is working on http://localhost:4000`);
   });
